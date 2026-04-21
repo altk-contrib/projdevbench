@@ -38,7 +38,7 @@ class ACMOJClient:
         self.headers = {
             "Authorization": f"Bearer {access_token}",
             "Content-Type": "application/x-www-form-urlencoded",
-            "User-Agent": "ACMOJ-Python-Client/2.2"
+            "User-Agent": "ProjDevBench/20260204 ACMOJ-Python-Client/2.2"
         }
 
         self.submission_log_file = '/workspace/submission_ids.log'

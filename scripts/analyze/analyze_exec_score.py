@@ -186,7 +186,7 @@ class ACMOJApiClient:
         self.session = requests.Session()
         self.session.headers.update({
             "Authorization": f"Bearer {access_token}",
-            "User-Agent": "ACMOJ-Python-Client/3.0"
+            "User-Agent": "ProjDevBench/20260204 ACMOJ-Python-Client/3.0"
         })
 
     def _request(self, url: str, is_json: bool = True) -> Optional[Any]:
